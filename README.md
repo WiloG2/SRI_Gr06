@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 If you can't download corpus.jsonl and queries.jsonl, this project used gaming corpus from Ir_datasets, you can download dataset from:
 
-https://ir-datasets.com/beir.html#beir/climate-fever
+https://ir-datasets.com/beir.html#beir/cqadupstack/gaming
 
 ### How to Run
 

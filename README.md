@@ -8,7 +8,7 @@ This project implements an Information Retrieval (IR) system using **TF-IDF** an
 ## Installation
 
 ### 1. Clone the repository
-```bash
+
 git clone https://github.com/WiloG2/SRI_Gr06.git
 cd SRI_Gr06
 

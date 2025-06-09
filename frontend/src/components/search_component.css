@@ -1,0 +1,97 @@
+/* Estilos generales */
+.search-container {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #3a3939;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Barra de consulta */
+.input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+/* Menú desplegable (más pequeño) */
+.select {
+  width: 20%; /* Ajustamos el tamaño */
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem; /* Hacemos el texto más pequeño */
+}
+
+/* Espacio entre el menú desplegable y el botón */
+.search-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px; /* Añadimos separación */
+  margin-left: 20px; 
+  font-size: 1rem;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+/* Resultados */
+.results {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.results-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Alineamos los resultados verticalmente */
+  gap: 20px; /* Espacio entre las tarjetas */
+  justify-content: flex-start;
+}
+
+.results-list li {
+  background-color: #5e5e5e;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.results-list li:hover {
+  transform: scale(1.05);
+}
+
+.results-list strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.results-list p {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+/* Mensaje cuando no hay resultados */
+.results p {
+  font-size: 1.2rem;
+  color: #888;
+}

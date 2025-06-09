@@ -73,8 +73,10 @@ const SearchComponent = () => {
           <ul className="results-list">
             { results.map((result, index) => (
               <li key={index}>
-                <strong>{result.id}</strong>: {result.text}
+                <strong>{result.id}</strong>: {result.title}
+                <p>{result.text}</p>
               </li>
+              
             ))}
           </ul>
         ) : (

@@ -28,11 +28,11 @@ https://ir-datasets.com/beir.html#beir/climate-fever
 
 ### How to Run
 
-##On backend:
+## On backend:
 
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
-##On frontend:
+## On frontend:
 
 npm install
 npm run dev
